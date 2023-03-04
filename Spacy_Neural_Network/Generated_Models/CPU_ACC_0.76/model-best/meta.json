@@ -1,0 +1,77 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.2.4,<3.3.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"b50fe5ec6",
+  "vectors":{
+    "width":300,
+    "vectors":684830,
+    "keys":684830,
+    "name":"en_vectors",
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "textcat":[
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "textcat"
+  ],
+  "components":[
+    "tok2vec",
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.7581168831,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.7407407407,
+    "cats_micro_r":0.7407407407,
+    "cats_micro_f":0.7407407407,
+    "cats_macro_p":0.7638888889,
+    "cats_macro_r":0.7980769231,
+    "cats_macro_f":0.7581168831,
+    "cats_macro_auc":0.9032356532,
+    "cats_f_per_type":{
+      "Type I":{
+        "p":1.0,
+        "r":0.6923076923,
+        "f":0.8181818182
+      },
+      "Type II":{
+        "p":0.5,
+        "r":0.5,
+        "f":0.5
+      },
+      "Type III":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Type IV":{
+        "p":0.5555555556,
+        "r":1.0,
+        "f":0.7142857143
+      }
+    },
+    "cats_macro_auc_per_type":0.0,
+    "tok2vec_loss":0.0000000001,
+    "textcat_loss":0.0
+  }
+}

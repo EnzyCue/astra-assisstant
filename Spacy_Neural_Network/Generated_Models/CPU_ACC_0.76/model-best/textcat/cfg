@@ -1,0 +1,10 @@
+{
+  "labels":[
+    "Type I",
+    "Type II",
+    "Type III",
+    "Type IV"
+  ],
+  "threshold":0.5,
+  "positive_label":null
+}
