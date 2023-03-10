@@ -18,7 +18,7 @@ https://stackoverflow.com/questions/66833724/how-to-save-azure-continuous-speech
 class MySpeechRecognizer:
     def __init__(self):
         # Establish our speech configuration settings
-        speech_config = speechsdk.SpeechConfig(subscription="c70b7043ace84e09824ca32f0964fc32", region="australiaeast")
+        speech_config = speechsdk.SpeechConfig(subscription="", region="australiaeast")
         speech_config.speech_recognition_language = "en-US"
 
         # Establish our audio configuration settings
